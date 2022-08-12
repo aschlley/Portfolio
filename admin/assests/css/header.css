@@ -1,0 +1,36 @@
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: #CAF0F8;
+    color: #282828 ;
+    width: 100vw;
+    height: 10vh;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Manrope';
+}
+
+.cabecalho__titulo{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.cabecalho__menu ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu__item{
+    margin-right: 2rem;
+}
+
+.menu__item:nth-child(6){
+    margin-right: 0px;
+    font-weight: 700;
+    
+}
