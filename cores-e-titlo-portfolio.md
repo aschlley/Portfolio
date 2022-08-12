@@ -1,20 +1,17 @@
-*cores principais da pagina*
-#FFB997 cor macarrão
-#F67E7D cor coral claro
-#843B62 cor lavanda
-#0B032D cor violeta russa
-#74546A cor berinjela 
+03045E azul mais escuro
+023E8A azul escuro
+0077B6 azul
+0096C7
+00B4D8
+48CAE4
+90E0EF
+ADE8F4
+CAF0F8
 
-*tons de azul claro*
-#76A7F4 cor Menino Azul
-#6B8CE6 cor Azul Centáurea
-#6071D7 cor Luz Azul Real
+eeece8 bege mais claro
+f4ebda bege medio
+ede0d4 bege 
 
-*tons de lilas*
-#9A89E6 cor Roxo Médio
-#C4A5F3 cor Malva
-#C9B7F5 cor Máximo Azul Roxo
-#CDC9F8 cor Azul Lavanda
 
 *tons de preto*
 #000000 cor preto
@@ -26,4 +23,13 @@ fonte para titulo
 @import url('https://fonts.googleapis.com/css2? family= Barlow:wght@100;200;300;400;500;600;700;800;900 & display=swap');
 
 fonte para texto
-@import url('https://fonts.googleapis.com/css2? family= Work+Sans:wght@100;200;300;400;500;600;700;800;900 & display=swap' );
+1ª opçao @import url('https://fonts.googleapis.com/css2? family= Work+Sans:wght@100;200;300;400;500;600;700;800;900 & display=swap' );
+2ª opçao @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+--texto-preto:
+--texto-bege:
+
+--background-azul-claro:
+--background-azul-escuro:
+--background-azul-medio:
+--background-azul-bebe:

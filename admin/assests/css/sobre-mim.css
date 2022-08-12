@@ -1,0 +1,26 @@
+.apresentacao__sobre_mim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ADE8F4;
+    width: 100vw;
+    height: 40vh;
+}
+
+.sobre__content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    justify-content: center;
+    width: 80%;
+}
+.sobre__titulo{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sobre__paragrafo{
+    font-weight: 500;
+}
