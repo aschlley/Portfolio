@@ -4,11 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio de Tayane</title>
+
+    <link rel="stylesheet" href="../assests/css/reset.css">
+    <link rel="stylesheet" href="../assests/css/header.css">
+    <link rel="stylesheet" href="../assests/css/apresentacao.css">
+    <link rel="stylesheet" href="../assests/css/sobre-mim.css">
+    <link rel="stylesheet" href="../assests/css/conhecimentos.css">
+    <link rel="stylesheet" href="../assests/css/projetos.css">
+    <title>Portfolio</title>
   </head>
   <body>
     <header class="cabecalho">
-      <div class="cabecalho_titulo">
+      <div class="cabecalho__titulo">
         <h2>👩‍💻 Tayane Aschley</h2>
       </div>
       <div class="cabecalho__menu">
@@ -18,73 +25,125 @@
           <li class="menu__item">Hobbies</li>
           <li class="menu__item">Formação</li>
           <li class="menu__item">Projetos</li>
+          <li class="menu__item">asch.tayane@gmail.com</li>
         </ul>
-      </div>
-      <div>
-        <a> asch.tayane@gmail.com</a>
       </div>
     </header>
     <main>
       <div class="container">
         <div class="apresentacao">
           <div class="apresentacao__formacao">
-            <h1 class="formacao__titulo">
-              Olá me chamo Tayane Aschley e sou estudande de desenvolvimento
-              Web
-            </h1>
-            <p class="formacao__descricao">
+            <div class="formacao__content">
+              <h1 class="formacao__titulo">
+              Olá me chamo <span>Tayane Aschley </span>e sou estudante de desenvolvimento Web</h1>
+              <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
               vel repellat asperiores similique eligendi rerum temporibus harum
               labore, quod pariatur nisi fugit, maxime neque magnam nihil
-              voluptates nam officiis doloremque.
-            </p>
-            <nav class="formacao__menu">
-              <ul class="menu__links">
-                <li class="menu__link"><a href="#">GitHub</a></li>
-                <li class="menu__link"><a href="#">Linkedin</a></li>
-                <li class="menu__link"><a href="#">Instagram</a></li>
-                <li class="menu__link"><a href="#">Curriculo</a></li>
-              </ul>
-            </nav>
+              voluptates nam officiis doloremque asperiores similique magnam iwl.
+              </p>
+              <nav class="formacao__menu">
+                <ul class="menu__links">
+                  <li class="menu__link"><a href="#">GitHub</a></li>
+                  <li class="menu__link"><a href="#">Linkedin</a></li>
+                  <li class="menu__link"><a href="#">Instagram</a></li>
+                  <li class="menu__link"><a href="#">Curriculo</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="formacao__imagem">
+              <img src="" alt="uma foto minha">
+            </div>
           </div>
           <div class="apresentacao__sobre_mim">
-            <h2 class="sobre__titulo">Sobre Mim</h2>
-            <p class="sobre__paragrafo">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Voluptates incidunt consequatur sapiente excepturi consectetur
-              perferendis assumenda iusto nulla adipisci odit quis debitis, id
-              unde quisquam omnis ea ratione laudantium reiciendis.
-            </p>
+            <div class="sobre__content">
+              <h2 class="sobre__titulo">Sobre Mim</h2>
+              <p class="sobre__paragrafo">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptates incidunt consequatur sapiente excepturi consectetur
+                perferendis assumenda iusto nulla adipisci odit quis debitis, id
+                unde quisquam omnis ea ratione laudantium reiciendis.
+                Voluptates incidunt consequatur sapiente excepturi consectetur
+                perferendis assumenda iusto nulla  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                adipisci odit quis debitis, id
+                unde quisquam omnis ea ratione laudantium reiciendis.
+                ncidunt consequatur sapiente excepturi consectetur
+                perferendis assumenda iusto nulla  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                adipisci odit quis debitis, id
+                unde quisquam omnis ea ratione laudantium reiciendis.
+              </p>
+            </div>
           </div>
         </div>
-        <section>
+        <section class="conhecimentos">
           <div class="skills">
-            <img class="skill__img" src="" alt="" />
-            <img class="skill__img" src="" alt="" />
-            <img class="skill__img" src="" alt="" />
+          <div class="skill__titulo">
+            <h2>skill</h2>
+          </div>
+          <div class="skill__content"> 
+              <div class="skill__card"> 
+                <img class="skill__img" src="" alt="skill 1" />
+              </div>
+
+              <div class="skill__card"> 
+                <img class="skill__img" src="" alt="skill 2" />
+              </div>
+
+              <div class="skill__card"> 
+                <img class="skill__img" src="" alt="skill 3" />
+              </div>
+            </div>
           </div>
           <div class="hobbies">
-            <img class="hobbies__img" src="" alt="" />
-            <img class="hobbies__img" src="" alt="" />
-            <img class="hobbies__img" src="" alt="" />
-            <img class="hobbies__img" src="" alt="" />
+            <div class="hobbies__titulo">
+              <h2>Hobbies</h2>
+            </div>
+            <div class="hobbies__content">
+              <div class="hobbies__card">
+                <img class="hobbies__img" src="" alt="hobbies 1" />
+              </div>  
+              <div class="hobbies__card">
+                <img class="hobbies__img" src="" alt="hobbies 2" />
+              </div>
+              <div class="hobbies__card">
+                <img class="hobbies__img" src="" alt="hobbies 3" />
+              </div>
+              <div class="hobbies__card">
+                <img class="hobbies__img" src="" alt="hobbies 4" />
+              </div>
+            </div>
+          </div>
+          <div class="formacao__academica">
+            <h2 class="formacao__academica__titulo">Formação acadêmica</h2>
+            <div class="formacao__ensino__medio"> 
+              <img class="ensino_medio__img" src="" alt="" />
+              <h3 class="ensino_medio__titulo">Ensino médio técnico  </h3>
+              <p>2018-2020</p>
+            </div>
           </div>
         </section>
-        <section class="formaçao__academica">
-          <h2 class="formacao__academica__titulo">Formação acadêmica</h2>
-          <div class="formacao__ensino__medio"></div>
-            <img class="ensino_medio__img" src="" alt="" />
-            <h3 class="ensino_medio__titulo">Ensino médio técnico  </h3>
-            <p>2018-2020</p>
+      <section class="projetos">
+        <div class="projetos__titulo">
+          <h2>Meus Projetos</h2>
+        </div>
+
+        <div class="projeto__decodificador">
+          <div class="decodificador__informacao">
+            <h2>Decodificador</h2>
+            <p>descrição do projeto e quais linguagems utilizei</p>
+            <div class="decodificador__botoes">
+              <button><a>Ver repositorio</a></button>
+              <button><a>Ver projeto</a></button>
+            </div>
           </div>
-        </section>
-        <section class="projetos">
-            <h2 class="projetos__titulo">Meus Projetos</h2>
-          <div class="projeto__decodificador"></div>
-          <div class="projeto__jogo_da_forca"></div>
+          <div class="decodificador__imagem">
+            <img src="" alt="imagem projeto">
+          </div>
+       </div>
+
           <div class="projeto__ecommerce"></div>
-        </section>
-      </div>
+          <div class="projeto__jogo_da_forca"></div>
+      </section>
     </main>
     <footer class="rodape">
       <img class="rodape__img" src="" alt="" />
